@@ -8,6 +8,6 @@ juliabase_init <- function() {
 
 #' @export
 foo <- function() {
-    invisible(.Call('_juliabase_foo', PACKAGE = 'juliabase'))
+    .Call('_juliabase_foo', PACKAGE = 'juliabase')
 }
 

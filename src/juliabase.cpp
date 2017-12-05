@@ -7,12 +7,11 @@ using namespace julia;
 //' @export
 // [[Rcpp::export]]
 void juliabase_init() {
-    libjulia::load_symbols();
-    libjulia::load_constants();
+    juliaapi_init();
 }
 
 //' @export
 // [[Rcpp::export]]
-void foo() {
-    jl_eval_string("println(\"hello\")");
+jl_value_t* foo() {
+    return jl_eval_string("1 + 1");
 }
