@@ -1,4 +1,4 @@
-#include <juliaapi_init.h>
+#define JULIAAPI_INIT
 #include <juliaapi.h>
 #include <Rcpp.h>
 using namespace Rcpp;
