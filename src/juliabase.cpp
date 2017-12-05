@@ -2,7 +2,6 @@
 #include <juliaapi.h>
 #include <Rcpp.h>
 using namespace Rcpp;
-using namespace julia;
 
 //' @export
 // [[Rcpp::export]]
