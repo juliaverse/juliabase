@@ -8,8 +8,9 @@ Maintainer: Your Name <your@email.com>
 Description: One paragraph description of what the package does as one or more full
          sentences.
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.14), juliaapi
-LinkingTo: Rcpp, juliaapi
+Imports: juliaapi
+LinkingTo: juliaapi
+Encoding: UTF-8
 NeedsCompilation: yes
 ByteCompile: yes
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.0
